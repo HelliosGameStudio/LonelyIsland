@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\test.cs" />
+    <Compile Include="Assets\danilapidor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

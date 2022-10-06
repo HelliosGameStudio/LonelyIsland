@@ -16,19 +16,19 @@ public class BasicMovement : MonoBehaviour
 
     void Update()
     {
-        //”Ô‡‚ÎÂÌËÂ Ò ÍÎ‡‚Ë¯ WASD *ÌÂ ‡·ÓÚ‡ÂÚ ‚ ÒËÏÛÎˇˆËË ÚÂÎÂÙÓÌ‡*
+        //–£–ø—Ä–∞–≤–ª–µ–Ω–∏–µ —Å –∫–ª–∞–≤–∏—à WASD *–Ω–µ —Ä–∞–±–æ—Ç–∞–µ—Ç –≤ —Å–∏–º—É–ª—è—Ü–∏–∏ —Ç–µ–ª–µ—Ñ–æ–Ω–∞*
         //Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0.0f);
         //transform.position = transform.position + movement * Time.deltaTime;
 
-        //”Ô‡‚ÎÂÌËÂ Ò 2D ‰ÊÓÒÚËÍ‡
-        //Vector3 movement = new Vector3(_joystick.Horizontal, _joystick.Vertical, 0.0f);
-        //transform.position = transform.position + movement * Time.deltaTime;
-
-        //”Ô‡‚ÎÂÌËÂ Ò Xbox *ÌÂ ‡·ÓÚ‡ÂÚ ‚ ÒËÏÛÎˇˆËË ÚÂÎÂÙÓÌ‡*
-        Vector3 movement = new Vector3(Input.GetAxis("MoveXboxHorizontal"), Input.GetAxis("MoveXboxVertical"), 0.0f);
+        //–£–ø—Ä–∞–≤–ª–µ–Ω–∏–µ —Å 2D –¥–∂–æ—Å—Ç–∏–∫–∞
+        Vector3 movement = new Vector3(_joystick.Horizontal, _joystick.Vertical, 0.0f);
         transform.position = transform.position + movement * Time.deltaTime;
 
-        if (movement.x > 0 || movement.y > 0) // ‡·ÓÚ‡ÂÚ ‚ ÍÛÔÂ Ò Xbox
-            joysticForMobile.SetActive(false);
+        //–£–ø—Ä–∞–≤–ª–µ–Ω–∏–µ —Å Xbox *–Ω–µ —Ä–∞–±–æ—Ç–∞–µ—Ç –≤ —Å–∏–º—É–ª—è—Ü–∏–∏ —Ç–µ–ª–µ—Ñ–æ–Ω–∞*
+        //Vector3 movement = new Vector3(Input.GetAxis("MoveXboxHorizontal"), Input.GetAxis("MoveXboxVertical"), 0.0f);
+        //transform.position = transform.position + movement * Time.deltaTime;
+
+        //if (movement.x > 0 || movement.y > 0) // —Ä–∞–±–æ—Ç–∞–µ—Ç –≤ –∫—É–ø–µ —Å Xbox
+        //    joysticForMobile.SetActive(false);
     }
 }

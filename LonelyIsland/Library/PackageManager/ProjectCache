@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637990002375113952
-    m_Hash: 498151200
+      ticks: 638006684046124731
+    m_Hash: 1731961015
   m_LockFileStatus:
     m_FilePath: D:/Allproject/GitHub_LocalRepository/LonelyIsland/LonelyIsland/LonelyIsland/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637990002377098089
-    m_Hash: 2336856343
+      ticks: 638006684046134730
+    m_Hash: 3004419204
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

@@ -1,10 +1,16 @@
 ﻿
+<<<<<<< HEAD
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{57CB8F0C-9B65-1716-5763-4D52BF47955D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{1CE95A1F-D178-C2BA-F90E-89F2B27FA5BB}"
 EndProject
+=======
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+
+>>>>>>> test-akiro
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

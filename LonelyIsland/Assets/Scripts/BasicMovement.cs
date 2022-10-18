@@ -2,33 +2,32 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D), typeof (BoxCollider2D))]
 public class BasicMovement : MonoBehaviour
 {
     [SerializeField] private FixedJoystick _joystick;
-    [SerializeField] private bool activeXboxContr;
 
 
-    public GameObject joysticForMobile;
+    public static float speed = 1;
+    private Rigidbody2D rb;
+
+
     void Start()
     {
-        
+       rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
+        //убрать плавность GetAxisRaw
         //Управление с клавиш WASD *не работает в симуляции телефона*
-        //Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0.0f);
-        //transform.position = transform.position + movement * Time.deltaTime;
+        //rb.velocity = new Vector2(speed * Input.GetAxis("Horizontal"), speed * Input.GetAxis("Vertical"));
 
         //Управление с 2D джостика
-        Vector3 movement = new Vector3(_joystick.Horizontal, _joystick.Vertical, 0.0f);
-        transform.position = transform.position + movement * Time.deltaTime;
+        rb.velocity = new Vector2(speed * _joystick.Horizontal, speed * _joystick.Vertical);
 
         //Управление с Xbox *не работает в симуляции телефона*
-        //Vector3 movement = new Vector3(Input.GetAxis("MoveXboxHorizontal"), Input.GetAxis("MoveXboxVertical"), 0.0f);
-        //transform.position = transform.position + movement * Time.deltaTime;
+        //rb.velocity = new Vector2(speed * Input.GetAxis("MoveXboxHorizontal"), speed * Input.GetAxis("MoveXboxVertical"));
 
-        //if (movement.x > 0 || movement.y > 0) // работает в купе с Xbox
-        //    joysticForMobile.SetActive(false);
     }
 }

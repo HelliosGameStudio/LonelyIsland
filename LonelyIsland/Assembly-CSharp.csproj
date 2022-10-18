@@ -667,14 +667,11 @@
     <Reference Include="UnityEditor.UI">
         <HintPath>D:\Allproject\GitHub_LocalRepository\LonelyIsland\LonelyIsland\LonelyIsland\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InputSystem">
-        <HintPath>D:\Allproject\GitHub_LocalRepository\LonelyIsland\LonelyIsland\LonelyIsland\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>D:\Allproject\GitHub_LocalRepository\LonelyIsland\LonelyIsland\LonelyIsland\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
         <HintPath>D:\Allproject\GitHub_LocalRepository\LonelyIsland\LonelyIsland\LonelyIsland\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>D:\Allproject\GitHub_LocalRepository\LonelyIsland\LonelyIsland\LonelyIsland\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>D:\Allproject\GitHub_LocalRepository\LonelyIsland\LonelyIsland\LonelyIsland\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
